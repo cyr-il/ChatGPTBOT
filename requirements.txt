@@ -1,1 +1,5 @@
 discord.py
+openai.py
+dotenv.py
+os.py
+```
