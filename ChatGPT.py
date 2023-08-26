@@ -29,8 +29,8 @@ async def get_reply_for_question(question):
     while len(last_messages) > max_chat_history:
         last_messages.pop(0)
         
-    # with open("result.txt", "a") as file:
-    #     file.write(response.content+ "\n")
+    with open("result.txt", "a") as file:
+        file.write(response.content+ "\n")
         
     return response.content
 
